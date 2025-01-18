@@ -12,7 +12,7 @@ pipeline {
                 git branch:'main',url:'https://github.com/ManojKRISHNAPPA/test-1.git'
             }
         }
-        stage('complie'){
+        stage('compile'){
             steps{
                 sh "mvn compile"
             }
