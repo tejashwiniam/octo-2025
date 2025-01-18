@@ -1,0 +1,12 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('checkout stage'){
+            steps{
+                git branch:'dev',url:'https://github.com/tejashwiniam/octo-2025.git'
+            }
+        }
+
+    }
+}
